@@ -14,10 +14,7 @@ module.exports.run = async function({ api, event, Users }) {
 	const { threadID } = event;
 	if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
 		api.changeNickname(`[ ${global.config.PREFIX} ] • ${(!global.config.BOTNAME) ? "Made by CatalizCS and SpermLord" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
-		return api.sendMessage(`Kết nối thành công
-Hướng Dẫn sử dụng.
-/menu : để xem toàn bộ lệnh của bot 
-/rule : Để thêm luật cho boxchat 💘`, threadID);
+		return api.sendMessage(`Kết nối thành công.Bot đã đặt chân tới đây 😎 Dùng !help để biết tất cả lệnh `, threadID);
 	}
 	else {
 		try {
