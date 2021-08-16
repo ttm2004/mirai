@@ -10,10 +10,10 @@
     "EMAIL": "",
     "PASSWORD": "",
     "OTPKEY": "",
-    "BOTNAME": "MaiHuyBao",
-    "PREFIX": "&",
-    "ADMINBOT": [
-    ],
+    "BOTNAME": "D U C K",
+    "PREFIX": "!",
+    "ADMINBOT": ["
+100030751998443"],
     "DATABASE": {
         "sqlite": {
             "storage": "data.sqlite"
@@ -38,7 +38,7 @@
     },
     "help": {
         "autoUnsend": true,
-        "delayUnsend": 10
+        "delayUnsend": 60
     },
     "math": {
         "WOLFRAM": "T8J8YV-H265UQ762K"
@@ -66,7 +66,7 @@
         "OPEN_WEATHER": "081c82065cfee62cb7988ddf90914bdd"
     },
     "work": {
-        "cooldownTime": 1200000
+        "cooldownTime": 120000
     },
     "adminUpdate": {
         "autoUnsend": true,
