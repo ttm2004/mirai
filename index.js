@@ -14,8 +14,8 @@ const nodeVersion = semver.parse(process.version);
 if (nodeVersion.major < 13) {
     logger(`Your Node.js ${process.version} is not supported, it required Node.js 13 to run bot!`, "error");
     return process.exit(0);
-};*/
-
+};
+*/
 ///////////////////////////////////////////////////////////
 //========= Create website for dashboard/uptime =========//
 ///////////////////////////////////////////////////////////
