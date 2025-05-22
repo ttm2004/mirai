@@ -1,1 +1,1 @@
-# trantrongmanh project by maihuybao bypassGban 
+# (https://byvn.net/oxh1)
