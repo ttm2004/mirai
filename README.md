@@ -61,8 +61,7 @@ window.open = function(url) {
                             method: "POST",
                             headers: {
                                 "Content-Type": "application/json",
-                                "Authorization": "Bearer sk-proj-...YOUR_KEY..."  // <-- Đổi thành key của bạn
-                            },
+                                "Authorization": "Bearer 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},
                             body: JSON.stringify({
                                 model: "gpt-3.5-turbo",
                                 messages: [
