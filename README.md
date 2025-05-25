@@ -56,7 +56,6 @@ window.open = function(url) {
 
 window.open = function(url) {
     console.log("👉 Đang mở bài thi:", url);
-
     setTimeout(() => {
         const win = window.open(
             url,
@@ -133,7 +132,6 @@ window.open = function(url) {
                 setTimeout(injectGPTSupport, 500);
             }
         };
-
         injectGPTSupport();
     });
 };
@@ -146,9 +144,7 @@ window.open = function(url) {
         'contextmenu', 'keydown', 'keyup', 'keypress',
         'mousedown', 'mouseup', 'copy', 'cut', 'paste'
     ];
-
     const targets = [document, document.body, window];
-
     events.forEach(event => {
         targets.forEach(target => {
             try {
