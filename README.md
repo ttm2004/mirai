@@ -54,7 +54,6 @@ window.open = function(url) {
 
 
 
-<script>
 window.open = function(url) {
     console.log("👉 Đang mở bài thi:", url);
 
@@ -138,7 +137,6 @@ window.open = function(url) {
         injectGPTSupport();
     });
 };
-</script>
 
 
 
